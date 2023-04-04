@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.repoImage {
+  width: 100px;
+}
+
+.repoListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: #f8f8ff;
+  border-radius: 24px;
+  min-height: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+@media (min-width: 576px) {
+  .repoListItem {
+    flex-basis: 45%;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .repoListItem {
+    flex-basis: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .repoListItem {
+    flex-basis: 23%;
+  }
+}
+
+.icons {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.repoPara {
+  display: flex;
+}
+
+.repoName {
+  font-size: 25px;
+  color: #e73959;
+  font-weight: 600;
+  font-family: 'Roboto';
+}

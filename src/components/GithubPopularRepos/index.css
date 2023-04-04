@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.repoListContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.languageListContainer {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-family: 'Lobster';
+}
+
+.failure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
